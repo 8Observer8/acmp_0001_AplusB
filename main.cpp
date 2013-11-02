@@ -35,6 +35,7 @@ int main(int argc, char** argv) {
         sum = ::sum(a, b);
     } else {
         cerr << "Error: incorrect data in the file: " << inFileName.c_str() << endl;
+        return 1;
     }
 
     ofstream out;
